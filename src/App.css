@@ -341,3 +341,31 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 }
+
+.brand {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #00f6ff;
+  text-shadow:
+    0 0 6px rgba(0, 246, 255, 0.6),
+    0 0 12px rgba(0, 246, 255, 0.4);
+  transition: all 0.3s ease;
+}
+
+.brand span {
+  color: var(--text-main);
+  margin-left: 6px;
+}
+
+.brand:hover {
+  transform: scale(1.05);
+  text-shadow:
+    0 0 12px #00f6ff,
+    0 0 24px rgba(0, 246, 255, 0.7);
+}
+
